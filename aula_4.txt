@@ -1,0 +1,96 @@
+    1  clear
+    2  git log
+    3  git log --pretty=oneline
+    4  git log --stat
+    5  git log -p
+    6  git log --pretty=oneline -1
+    7  git log --since=10.minutes
+    8  git log
+    9   git log --author='kangni adjignon'
+   10  touch teste
+   11  git add .teste
+   12  git add teste
+   13  git status
+   14  git commit -m 'Commit de teste'
+   15  git log
+   16  git reset --soft HEAD~
+   17  git log
+   18  git status
+   19  git reset --soft HEAD~
+   20  git log
+   21  git status
+   22  git commit -m 'Commit de teste'
+   23  git log
+   24  git reset --hard HEAD~
+   25  git log
+   26  git status
+   27  git log --pretty=oneline
+   28  cd comandas da aula_3
+   29  git checkout HEAD2
+   30  git checkout HEAD 2
+   31  git checkout HEAD~~
+   32  git status
+   33  git log
+   34  ls
+   35  git checkout master
+   36  git log
+   37  git checkout HEAD~5
+   38  clear
+   39  mkdir .vscode
+   40   ls
+   41  cd .vscode
+   42  touch conf.txt
+   43  ls
+   44  cd~~
+   45  git checkout master
+   46  git checkout~~
+   47  cd curso_git
+   48  cd ~
+   49  pwd
+   50  cd ..
+   51  git checkout master
+   52  cd master
+   53  cd master/
+   54  cd ..
+   55  cd ~~
+   56  cd .
+   57  cd master/
+   58  cd desktop/
+   59  help
+   60  return master
+   61  return 'master'
+   62  pwd
+   63  cd curso_git/
+   64  checkout curso_git
+   65  cd ../
+   66  cd./
+   67  history
+   68  cd ~
+   69  cd desktop/
+   70  cd curso_git/
+   71  git log
+   72  git checkout HEAD~
+   73  git checkout master
+   74  ls
+   75  git status
+   76  git log
+   77  clear
+   78  git status
+   79   touch conf.txt
+   80  mv conf.txt .vscode/
+   81  ls .vscode
+   82  ls
+   83  git status
+   84  ls -a
+   85  git status
+   86  echo '.vscode/' > .gitignore
+   87  git status
+   88  touch pessoal.conf
+   89  git status
+   90  echo 'pessoal' >> .gitignore
+   91  git status
+   92  git add .gitignore
+   93  git commit -m 'Adicionado arquivo .gitignore'
+   94  git status
+   95  history>
+   96  history > aula_4.txt
