@@ -1,0 +1,48 @@
+    1  clear
+    2  git branch
+    3  git checkout-b feature
+    4  git checkout -b feature
+    5  git branch
+    6  touch nova_feature
+    7  git status
+    8  git add nova_feature
+    9  git commit -m 'Adicionando nova feature'
+   10  git log
+   11  git checkout master
+   12  git status
+   13  git log
+   14  touch continuando_master
+   15  git add continuando_master
+   16  git commit -m 'Adicionado continuação na master'
+   17  git log
+   18  git checkout feature
+   19  git log
+   20  git checkout -b feature2 master
+   21  git log
+   22  git checkout -b feature2 master
+   23  git checkout master
+   24  git checkout -d feature2
+   25  git log
+   26  git branch -d feature2
+   27  git chechout master
+   28  pwd
+   29  git status
+   30  git branch master
+   31  git checkout master
+   32  git log
+   33  git checkout feature
+   34  git checkout feature2
+   35  git checkout master
+   36  clear
+   37  git checkout feature
+   38  git log --pretty=oneline --graph
+   39  git merge master
+   40  git log
+   41  git log --pretty=oneline --graph
+   42  git reset --hard HEAD~
+   43  git log --pretty=oneline --graph
+   44  git rebase master
+   45  git log --pretty=oneline --graph
+   46  git reset --hard HEAD~
+   47  git log --pretty=oneline --graph
+   48  history > aula_5.txt
